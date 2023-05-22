@@ -1,0 +1,22 @@
+.rouletteContainer {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.roulette__canvasContainer {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+.roulette__canvasContainer::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 0px;
+  border-top: 80px solid #fff;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  /* filter: drop-shadow(0 8px 8px #aaa); */
+}

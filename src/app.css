@@ -1,0 +1,16 @@
+.heading {
+  margin: 32px 0 0;
+}
+
+.participants {
+  margin: 0 auto;
+  padding: 16px 24px;
+  border-radius: 16px;
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  border: none;
+  background: #efefef;
+  font-size: 16px;
+  color: #0f0f0f;
+}

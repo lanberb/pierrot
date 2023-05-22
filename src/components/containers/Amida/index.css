@@ -1,0 +1,9 @@
+.amidaContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.amida__canvasContainer {
+  aspect-ratio: 16 / 9;
+  width: 100%;
+}
